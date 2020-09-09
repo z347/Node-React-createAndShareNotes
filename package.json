@@ -1,0 +1,38 @@
+{
+  "name": "nerdy-soft",
+  "version": "1.0.0",
+  "description": "test task",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production npm run start --prefix api",
+    "server:start": "npm run start --prefix api",
+    "client:start": "npm run start --prefix client",
+    "development:server": "npm run dev --prefix api",
+    "dev": "cross-env NODE_ENV=development concurrently \"npm run development:server\" \"npm run client:start\"",
+    "client:build": "npm run build --prefix client",
+    "prettier": "prettier --write **/*.js **/*.jsx"
+  },
+  "keywords": [
+    "MVC (Model-View-Controller)",
+    "Express.js",
+    "Mongoose",
+    "React.js",
+    "Redux",
+    "Material-UI",
+    "JWT",
+    "Web-socket"
+  ],
+  "author": {
+    "nick": "z347",
+    "name": "Volodymyr",
+    "surname": "Shylo",
+    "email": "shulo.vova@gmail.com",
+    "phone": "+38-093-550-38-31",
+    "GitHub": "github.com/z347",
+    "Site": "z347.info"
+  },
+  "devDependencies": {
+    "concurrently": "5.1.0",
+    "cross-env": "^7.0.2",
+    "prettier": "2.0.2"
+  }
+}
