@@ -21,8 +21,8 @@ The main features that are present in this project:
 ## Run Project Locally
 
 1. clone or fork this repository.
-2. install all dependencies and devDependencies in to all folders: api, client, root folder
-3. at the root folder open terminal and type: **npm run dev**
+2. **npm install**
+3. **npm run dev**
 
 ## Technologies Used
 
